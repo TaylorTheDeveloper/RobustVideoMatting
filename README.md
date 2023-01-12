@@ -4,16 +4,26 @@
 
 <p align="center">English | <a href="README_zh_Hans.md">中文</a></p>
 
-Official repository for the paper [Robust High-Resolution Video Matting with Temporal Guidance](https://peterl1n.github.io/RobustVideoMatting/). RVM is specifically designed for robust human video matting. Unlike existing neural models that process frames as independent images, RVM uses a recurrent neural network to process videos with temporal memory. RVM can perform matting in real-time on any videos without additional inputs. It achieves **4K 76FPS** and **HD 104FPS** on an Nvidia GTX 1080 Ti GPU. The project was developed at [ByteDance Inc.](https://www.bytedance.com/)
+This is a fork of the official repository for the paper [Robust High-Resolution Video Matting with Temporal Guidance](https://peterl1n.github.io/RobustVideoMatting/). 
+
+This fork includes updates that allow the user to specify additional options, such as changing the background color.
+
+RVM is specifically designed for robust human video matting. Unlike existing neural models that process frames as independent images, RVM uses a recurrent neural network to process videos with temporal memory. RVM can perform matting in real-time on any videos without additional inputs. It achieves **4K 76FPS** and **HD 104FPS** on an Nvidia GTX 1080 Ti GPU. The project was developed at [ByteDance Inc.](https://www.bytedance.com/)
 
 <br>
 
 ## News
-
+* [Jan 12 2023] Enabled Background color options and updated [Demo collab here](https://colab.research.google.com/drive/11ERb04vWXy5YhSyCqejaaoBFEwIzinAT#scrollTo=XQS1RNu3IEl2)
 * [Nov 03 2021] Fixed a bug in [train.py](https://github.com/PeterL1n/RobustVideoMatting/commit/48effc91576a9e0e7a8519f3da687c0d3522045f).
 * [Sep 16 2021] Code is re-released under GPL-3.0 license.
 * [Aug 25 2021] Source code and pretrained models are published.
 * [Jul 27 2021] Paper is accepted by WACV 2022.
+
+<br>
+
+## Demo
+
+* [Colab Demo](https://colab.research.google.com/drive/11ERb04vWXy5YhSyCqejaaoBFEwIzinAT#scrollTo=XQS1RNu3IEl2): Test the model on your own videos with free GPU in google collab. This project was forked from
 
 <br>
 
@@ -30,12 +40,6 @@ All footage in the video are available in [Google Drive](https://drive.google.co
 
 <br>
 
-
-## Demo
-* [Webcam Demo](https://peterl1n.github.io/RobustVideoMatting/#/demo): Run the model live in your browser. Visualize recurrent states.
-* [Colab Demo](https://colab.research.google.com/drive/10z-pNKRnVNsp0Lq9tH1J_XPZ7CBC_uHm?usp=sharing): Test our model on your own videos with free GPU. 
-
-<br>
 
 ## Download
 
