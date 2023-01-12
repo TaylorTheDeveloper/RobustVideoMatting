@@ -13,7 +13,7 @@ RVM is specifically designed for robust human video matting. Unlike existing neu
 <br>
 
 ## News
-* [Jan 12 2023] Enabled Background color options and updated [Demo collab here](https://colab.research.google.com/drive/11ERb04vWXy5YhSyCqejaaoBFEwIzinAT#scrollTo=XQS1RNu3IEl2)
+* [Jan 12 2023] Enabled Background color options and updated [Demo collab here](https://colab.research.google.com/drive/11ERb04vWXy5YhSyCqejaaoBFEwIzinAT?usp=share_link)
 * [Nov 03 2021] Fixed a bug in [train.py](https://github.com/PeterL1n/RobustVideoMatting/commit/48effc91576a9e0e7a8519f3da687c0d3522045f).
 * [Sep 16 2021] Code is re-released under GPL-3.0 license.
 * [Aug 25 2021] Source code and pretrained models are published.
@@ -23,7 +23,7 @@ RVM is specifically designed for robust human video matting. Unlike existing neu
 
 ## Demo
 
-* [Colab Demo](https://colab.research.google.com/drive/11ERb04vWXy5YhSyCqejaaoBFEwIzinAT#scrollTo=XQS1RNu3IEl2): Test the model on your own videos with free GPU in google collab. This project was forked from
+* [Colab Demo](https://colab.research.google.com/drive/11ERb04vWXy5YhSyCqejaaoBFEwIzinAT?usp=share_link): Test the model on your own videos with free GPU in google collab.
 
 <br>
 
